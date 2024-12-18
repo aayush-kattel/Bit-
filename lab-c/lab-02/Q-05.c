@@ -24,16 +24,16 @@ void main() {
 
     if (u <= 20) {
         bill = u * 5.0 + 75;  // Calculate bill for 0-20 units
-        printf("Bill: Rs. %.2f\n", bill);  // Display the bill
+        printf("Bill: Rs. %.2f", bill);  // Display the bill
     } else if (u <= 30) {
         bill = (20 * 5.0) + 75 + (u - 20) * 6.5 + 100;  // Calculate bill for 21-30 units
-        printf("Bill: Rs. %.2f\n", bill);  // Display the bill
+        printf("Bill: Rs. %.2f", bill);  // Display the bill
     } else if (u <= 50) {
         bill = (20 * 5.0) + 75 + (10 * 6.5) + 100 + (u - 30) * 8.0 + 100;  // Calculate bill for 31-50 units
-        printf("Bill: Rs. %.2f\n", bill);  // Display the bill
+        printf("Bill: Rs. %.2f", bill);  // Display the bill
     } else if (u <= 100) {
         bill = (20 * 5.0) + 75 + (10 * 6.5) + 100 + (20 * 8.0) + 100 + (u - 50) * 9.5 + 125;  // Calculate bill for 51-100 units
-        printf("Bill: Rs. %.2f\n", bill);  // Display the bill
+        printf("Bill: Rs. %.2f", bill);  // Display the bill
     } else if (u <= 250) {
         bill = (20 * 5.0) + 75 + (10 * 6.5) + 100 + (20 * 8.0) + 100 + (50 * 9.5) + 125 + (u - 100) * 9.5 + 150;  // Calculate bill for 101-250 units
         printf("Bill: Rs. %.2f", bill);  // Display the bill

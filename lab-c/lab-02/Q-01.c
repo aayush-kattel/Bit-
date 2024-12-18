@@ -4,7 +4,7 @@
 *Lab-No: 01
 *Faculty: BIT
 *Name: Aayush Kattel
-*(Q)WAP to accept two integer and check whether they are equal or not 
+*(Q)WAP to accept two integer and check whether they are equal or not  
 */
 
 #include<stdio.h>
